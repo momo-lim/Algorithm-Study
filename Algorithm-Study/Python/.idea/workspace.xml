@@ -21,23 +21,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="731" />
+          <entry key="py" value="1990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="731" />
+          <entry key="Python" value="1990" />
         </counts>
       </usages-collector>
     </session>
@@ -76,11 +76,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOJ_2439_별찍기-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOJ_2440_별찍기-3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOJ_2644_촌수계산.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1642519394711" expanded="true" signature="285:398" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +125,9 @@
         <option value="$PROJECT_DIR$/BOJ_9012_괄호.py" />
         <option value="$PROJECT_DIR$/BOJ_2438_별찍기-1.py" />
         <option value="$PROJECT_DIR$/BOJ_2439_별찍기-2.py" />
+        <option value="$PROJECT_DIR$/BOJ_2440_별찍기-3.py" />
+        <option value="$PROJECT_DIR$/BOJ_2644_촌수 계산.py" />
+        <option value="$PROJECT_DIR$/BOJ_2644_촌수계산.py" />
       </list>
     </option>
   </component>
@@ -154,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BOJ_2439_별찍기-2">
+  <component name="RunManager" selected="Python.BOJ_2644_촌수계산">
     <configuration name="BOJ_2438_별찍기-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,6 +221,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="BOJ_2440_별찍기-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ_2440_별찍기-3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BOJ_2644_촌수계산" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ_2644_촌수계산.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BOJ_9012_괄호" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,9 +288,13 @@
       <item itemvalue="Python.BOJ_9012_괄호" />
       <item itemvalue="Python.BOJ_2438_별찍기-1" />
       <item itemvalue="Python.BOJ_2439_별찍기-2" />
+      <item itemvalue="Python.BOJ_2440_별찍기-3" />
+      <item itemvalue="Python.BOJ_2644_촌수계산" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ_2644_촌수계산" />
+        <item itemvalue="Python.BOJ_2440_별찍기-3" />
         <item itemvalue="Python.BOJ_2439_별찍기-2" />
         <item itemvalue="Python.BOJ_2438_별찍기-1" />
         <item itemvalue="Python.BOJ_9012_괄호" />
@@ -253,8 +323,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294025" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294025" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,8 +348,18 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BOJ_2644_촌수계산.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="visited" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BOJ_.py" />
@@ -310,8 +390,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BOJ_2439_별찍기-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ_2440_별찍기-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ_2644_촌수계산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1642519394711" expanded="true" signature="285:398" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
