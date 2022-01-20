@@ -11,8 +11,7 @@ DFS
 
 '''
 
-import sys
-input = sys.stdin.readline
+
 
 def DFS(r,c):
     global total_O
@@ -20,8 +19,6 @@ def DFS(r,c):
     stack = []
     stack.append((r,c))
     visited[r][c] = 1
-
-
 
     O = 0
     V = 0
