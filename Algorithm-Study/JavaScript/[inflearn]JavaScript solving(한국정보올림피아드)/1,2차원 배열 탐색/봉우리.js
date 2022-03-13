@@ -19,8 +19,6 @@ function solution(arr,n) {
         count += 1
       }
 
-      
-        
     }
   }
   return count
