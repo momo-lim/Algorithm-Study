@@ -24,7 +24,7 @@ function solution(N, M, arr) {
             pi = s;
           } else if (arr[k][s] === j) pj = s;
         }
-        if (pi > pj) {
+        if (pi < pj) {
           cnt += 1;
         }
       }
