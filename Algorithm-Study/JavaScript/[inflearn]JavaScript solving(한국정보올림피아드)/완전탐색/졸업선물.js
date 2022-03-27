@@ -9,7 +9,7 @@ function solution(N, M, arr) {
   let cnt;
   let result = 0;
   for (let i = 0; i < 5; i++) {
-    product = arr.map((val) => val.slice());
+    product = arr.map((val) => val.slice()); // 깊은복사
     money = M;
     cnt = 0;
     product[i][0] = product[i][0] / 2;
