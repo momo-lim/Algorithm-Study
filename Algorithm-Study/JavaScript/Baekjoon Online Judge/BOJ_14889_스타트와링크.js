@@ -7,7 +7,7 @@ let input = fs.readFileSync("input.txt").toString().split("\r\n");
 
 const N = Number(input.shift());
 input = input.map((item) => item.split(" ").map(Number));
-let visited = Array.from({ length: N }, () => 0);
+let visited = Array.from({ length: N }, () => Array(N).fill(0));
 let minValue = 9999;
 
 function DFS(cnt, k) {
