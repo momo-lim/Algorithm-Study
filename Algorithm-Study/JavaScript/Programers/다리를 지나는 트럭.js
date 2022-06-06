@@ -3,7 +3,6 @@
 function solution(bridge_length, weight, truck_weights) {
   var answer = 0;
   let n = truck_weights.length;
-  let bridge_before = []; // 다리를 건너는 트럭
   let bridge_after = []; // 다리를 지난 트럭
   let visited = Array.from({ length: bridge_length }, () => 0);
   let bridge_weight = 0;
